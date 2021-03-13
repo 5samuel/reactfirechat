@@ -32,9 +32,9 @@ ___________________________
 
 ## *_______Resumen del proyecto_______*
 
-#### _🌙 En esta secion del proyecto se creo un proyecto llamado readfirechat de read, luego se creo un remoto al cual el lider del proyecto el cual es samuel envio la colaboradora la cual es sterlyn B.S. la cual acepto la invitacion y luego paso a limpiar el readme.md y realizar los perfiles de cada miembro del equipo.
+#### _ 🌙 En esta secion del proyecto se creo un proyecto llamado readfirechat de read, luego se creo un remoto al cual el lider del proyecto el cual es samuel envio la colaboradora la cual es sterlyn B.S. la cual acepto la invitacion y luego paso a limpiar el readme.md y realizar los perfiles de cada miembro del equipo.
 
 ___________
 ## _*Las diferencias entre un miembro colaborador y un miembro fork*_
 __________
- #### El colaborador tiene permiso de editar mientras que el fork solo puede clonar sin poder modificar
+ #### *El colaborador* tiene permiso de editar mientras que el *fork* solo puede clonar sin poder modificar
