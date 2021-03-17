@@ -38,3 +38,6 @@ ___________
 ## _*Las diferencias entre un miembro colaborador y un miembro fork*_
 __________
  #### *El colaborador* tiene permiso de editar mientras que el *fork* solo puede clonar sin poder modificar
+
+ ## __*El uso de pull request*__
+El uso de pull request permite no solo llevar de forma mas ordenada las tareas crear propuestas o cambios que puedan ser integrados posteriormente a GIT, basicamente un pull request es una peticion para integrar nuestras propuestas.
