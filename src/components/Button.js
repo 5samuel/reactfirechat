@@ -1,9 +1,9 @@
-const Button =({
-    onclick =null,
-    Children=null
-})=> 
+const Button = ({
+    onClick = null,
+    children = null
+}) =>
 (
-<button inClinck={onclick} > {Children}</button>
+    <button onClick={onClick} >{children} </button>
 );
 
 export default Button;
