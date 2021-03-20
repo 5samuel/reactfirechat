@@ -8,15 +8,15 @@ firebase.initializeApp({
      // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   const firebaseConfig = {
-    apiKey: "AIzaSyA97w54XbQBO7fIsI7RY8ifxZK1DYJPj-Y",
-    authDomain: "firechat-ssek.firebaseapp.com",
-    projectId: "firechat-ssek",
-    storageBucket: "firechat-ssek.appspot.com",
-    messagingSenderId: "55021505514",
-    appId: "1:55021505514:web:c62345ba580b1cb202c093",
-    measurementId: "G-JBHKKRK1KS"
+    apiKey: "AIzaSyCuv20rYX56P_SSYw75gOD_vpingNgfrBo",
+    authDomain: "firechat-test-1fd35.firebaseapp.com",
+    projectId: "firechat-test-1fd35",
+    storageBucket: "firechat-test-1fd35.appspot.com",
+    messagingSenderId: "648296366926",
+    appId: "1:648296366926:web:0636dccfa7e222ff24141f",
+    measurementId: "G-5E8TSXS2J5"
   };
-
+  
 
 
 firebase.initializeApp(firebaseConfig);
