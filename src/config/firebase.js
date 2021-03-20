@@ -3,10 +3,7 @@ import 'firebase/auth';
 import 'firebase/firestore'; 
 
 
-firebase.initializeApp({
-});
-     // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
   const firebaseConfig = {
     apiKey: "AIzaSyCuv20rYX56P_SSYw75gOD_vpingNgfrBo",
     authDomain: "firechat-test-1fd35.firebaseapp.com",
