@@ -1,8 +1,10 @@
 
-
-import { db, googleAuthProvider, firebase}from './config/firebase';
 import Button from './components/Button';
-
+import{
+  db,
+  googleAuthProvider,
+  firebase
+}from './config/firebase';
 function App() {
 
   const signInWithGoogle = async ()=>{
