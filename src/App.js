@@ -6,7 +6,7 @@ function App() {
   const signInWithGoogle = async ()=>{
     firebase.auth().useDeviceLanguage();
     try {
-      await firebase.auth().signInwithPopup(googleAuthProvider);
+      await firebase.auth().signInWithPopup(googleAuthProvider);
     }catch (e){
       console.error(e.message);
     }
