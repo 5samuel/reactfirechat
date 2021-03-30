@@ -12,9 +12,14 @@ function App() {
     }
   }
   return (
+    
+       <center> 
     <div>
-      <Button onClick = {signInWithGoogle} > sing with Google</Button>
+          <center><h3>React Firechat</h3></center>
+         <Button  onClick = {signInWithGoogle} > sing with Google</Button>
     </div>
+    </center>
+
   );
 }
 
