@@ -1,6 +1,6 @@
 import {firebase} from '../config/firebase';
 
-function signOut() {
+const signOut = async () => {
     try {
         await firebase.auth().signOut();
     } catch (e) {
