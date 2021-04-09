@@ -73,4 +73,8 @@ body {
    
   button:hover:before{
     left: 130%;
+    
   }
+p{
+  color:cornsilk;
+}
