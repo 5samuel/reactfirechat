@@ -5,7 +5,7 @@ body {
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: #131213;
+    background: white;
   }
   
   code {
@@ -75,6 +75,3 @@ body {
     left: 130%;
     
   }
-p{
-  color:cornsilk;
-}
