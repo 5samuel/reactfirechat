@@ -1,10 +1,8 @@
-
-import Button from './components/Button';
-import {signInWithGoogle} from './login';
-import signOut from './login/signOut';
+import {Button, Channel} from './components'
+import {signInWithGoogle, signOut} from './login';
 import {useAuthState} from './hooks';
 import { firebase } from './config/firebase';
-import { render } from '@testing-library/react';
+
 
 
 function App(){
@@ -26,8 +24,10 @@ function App(){
           <>
           <Button onClick={signOut}> sign in with Google</Button>
           <p>Bienvenidos al Chat!</p>
+          <Channel user={user}/>
           </>
           ):<Button onClick={signInWithGoogle} > Sign in with Google</Button>
+          
         }
         
     </div>
