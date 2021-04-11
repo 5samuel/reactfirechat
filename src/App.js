@@ -1,5 +1,4 @@
-
-import Button from './components/Button';
+import {Button, Channel} from './components'
 import {signInWithGoogle} from './login';
 import signOut from './login/signOut';
 import {useAuthState} from './hooks';
