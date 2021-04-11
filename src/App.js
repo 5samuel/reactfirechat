@@ -25,6 +25,7 @@ function App(){
           <>
           <Button onClick={signOut}> sign in with Google</Button>
           <p>Bienvenidos al Chat!</p>
+          <Channel user ={user}/>
           </>
           ):<Button onClick={signInWithGoogle} > Sign in with Google</Button>
         }
