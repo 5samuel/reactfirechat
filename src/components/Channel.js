@@ -9,7 +9,7 @@ const Channel = ({user = null}) =>{
         carga 100 mensaje ordenados por fecha.       
         */ 
        const query = db.collection('messages')
-            .orderBy('createdAt')
+            .orderBy('creatdAt')
             .limit(100)
         const unsubscribe = query.onSnapshot(querySnapshot =>{
             //obtiene todos los mensajes desde la db con ID
