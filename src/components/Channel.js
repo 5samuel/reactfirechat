@@ -21,6 +21,13 @@ const Channel = ({user = null}) =>{
         });
         return unsubscribe;
     })
-    return <ul></ul>
+    return (
+    <ul>
+        { messages.map(message => (
+            // todos los mensajes seran mostrados en una lista.
+            <li key={message.id}>{message.txt}</li>
+        ))}
+    </ul>
+    );
 };
 export default Channel;
