@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react"
+import { useEffect, useState } from "react";
+import {db} from '../config/firebase';
 
 const Channel = ({user = null}) =>{
     const [messages, setMessages]= useState([]);
