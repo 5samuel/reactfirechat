@@ -21,6 +21,7 @@ const Channel = ({user = null}) =>{
             setMessages(data);
         });
         return unsubscribe;
+
     })
     return (
     <ul>
