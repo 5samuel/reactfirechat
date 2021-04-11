@@ -1,6 +1,6 @@
 import {Button, Channel} from './components'
-import {signInWithGoogle} from './login';
-import signOut from './login/signOut';
+import {signInWithGoogle, signOut} from './login';
+
 import {useAuthState} from './hooks';
 import { firebase } from './config/firebase';
 
