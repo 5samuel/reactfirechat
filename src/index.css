@@ -5,7 +5,7 @@ body {
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: white;
+    background: black;
   }
   
   code {
@@ -17,7 +17,9 @@ body {
   }
   
   button{
-    position: relative;
+    position: absolute;
+    left: 650px;
+    
     display: block;
     padding: 25px 10px;
     border-radius: 6px;
@@ -75,3 +77,13 @@ body {
     left: 130%;
     
   }
+li{
+  
+  color: antiquewhite;
+}
+p{
+  color: antiquewhite;
+}
+h1{
+  color: aliceblue;
+}
