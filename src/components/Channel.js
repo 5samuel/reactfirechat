@@ -3,6 +3,7 @@ import {db} from '../config/firebase';
 
 const Channel = ({user = null}) =>{
     const [messages, setMessages]= useState([]);
+    //cargar los mensaje desde la base de datos.
     useEffect (() =>{
         /*
         crear el query de los mensaje.
@@ -27,7 +28,7 @@ const Channel = ({user = null}) =>{
     <ul>
         { messages.map(message => (
             // todos los mensajes seran mostrados en una lista.
-            <li key={message.id}>{message.txt}</li>
+            <li key={message.id}>{message.text}</li>
         ))}
     </ul>
     );

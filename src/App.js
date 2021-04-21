@@ -1,4 +1,4 @@
-import {Button, Channel} from './components'
+import {Button, Channel} from './components';
 import {signInWithGoogle, signOut} from './login';
 import {useAuthState} from './hooks';
 import { firebase } from './config/firebase';
