@@ -10,7 +10,7 @@ const Channel = ({user = null}) =>{
         */ 
        const query = db.collection('messages')
             .orderBy('creatdAt')
-            .limit(100)
+            .limit(100);
         const unsubscribe = query.onSnapshot(querySnapshot =>{
             //obtiene todos los mensajes desde la db con ID
             const data = querySnapshot.docs.map(doc => ({
@@ -22,7 +22,7 @@ const Channel = ({user = null}) =>{
         });
         return unsubscribe;
 
-    })
+    }, [])
     return (
     <ul>
         { messages.map(message => (
