@@ -82,7 +82,9 @@ li{
   color: antiquewhite;
 }
 p{
-  color: antiquewhite;
+  font-size: 18px;
+  font-family: Broadway;
+  color: #fd1532;
 }
 h1{
   color: aliceblue;
