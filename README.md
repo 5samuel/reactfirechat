@@ -1,5 +1,5 @@
 
-## Hola amigos👋 , ¡gracias por pasar!🌙 Somos un pequeño grupo de CEMAS.🍕Recientemente estamos creando un proyecto de react ❄ espero que nuestro proyecto sea de su agrado✨.
+## Hola amigos👋, ¡gracias por pasar!🌙 Somos un pequeño grupo de CEMAS.🍕Recientemente estamos creando un proyecto de react ❄ espero que nuestro proyecto sea de su agrado✨.
 
 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 ____________________

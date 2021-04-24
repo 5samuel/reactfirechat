@@ -23,7 +23,7 @@ function App(){
           
           <>
           <br></br><br></br><br></br>
-          <Button onClick={signOut}> sign in with Google</Button>
+          <Button onClick={signOut}> Logout Google</Button>
       
           <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
           <p>Bienvenidos al Chat!</p>
