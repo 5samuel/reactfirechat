@@ -1,6 +1,7 @@
 import { useEffect, useState, useRef } from 'react';
 import { db, firebase } from '../config/firebase';
 import Message from './Message';
+import '../style/style.css';
 
 
 const Channel = ({ user = null }) => {
@@ -90,11 +91,13 @@ const Channel = ({ user = null }) => {
                     onChange={handleMessageOnChange}
                     placeholder="Escribe tu mensaje aqui..."
                 />
+
                 <button
+                    class=" enviar"
                     type="submit"
                     disabled={!newMessage}
                 >
-                    Send
+                    Enviar
         </button>
             </form>
         </>

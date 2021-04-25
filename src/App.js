@@ -22,13 +22,14 @@ function App(){
         user ? (
           
           <>
+          <center>
           <br></br><br></br><br></br>
           <Button onClick={signOut}> Logout Google</Button>
       
           <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
           <p>Bienvenidos al Chat!</p>
           <Channel user={user}/>
-        
+          </center>
           </>
           
           ):<Button onClick={signInWithGoogle} > Sign in with Google</Button>

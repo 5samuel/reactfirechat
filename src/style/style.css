@@ -1,0 +1,44 @@
+input[type=text]{
+    width:50%;
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+  }
+  
+  input[type=text]:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+  }
+    .enviar{
+        position: absolute;
+        top: 880px;
+        left: 1020px;
+        text-decoration: none;
+        padding: 10px;
+        font-weight: 600;
+        font-size: 20px;
+        color: #ffffff;
+        background-color: #1883ba;
+        border-radius: 6px;
+        border: 2px solid #0016b0;
+    }
+    img{
+        position: absolute;
+        left: 500px;
+        
+        border-radius: 20px;
+    }
+    li{
+        color:brown;
+        list-style-type:none;
+    }
+    span{
+        position: absolute;
+        left: 860px;
+        
+        color:cadetblue;
+    }
