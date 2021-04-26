@@ -33,11 +33,11 @@ const Message = ({
                     height={45}
                 />
             ) : null}
-            {displayName ? <p>{displayName}</p> : null}
+            {displayName ? <p >{displayName}</p> : null}
             {createdAt?.seconds ? (
                 <span>{formatDate(new Date(createdAt.seconds * 1000))}</span>
             ) : null}
-            <p>{text}</p>
+            <p class="hola">{text}</p>
         </div>
     );;
 };

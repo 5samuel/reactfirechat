@@ -1,5 +1,8 @@
 input[type=text]{
-    width:50%;
+    position: absolute;
+    left: 350px;
+    top: 700px;
+    width:40%;
     border:2px solid #aaa;
     border-radius:4px;
     margin:8px 0;
@@ -14,9 +17,10 @@ input[type=text]{
     box-shadow:0 0 8px 0 dodgerBlue;
   }
     .enviar{
+        height: 45px;
         position: absolute;
-        top: 880px;
-        left: 1020px;
+        top: 700px;
+        left: 900px;
         text-decoration: none;
         padding: 10px;
         font-weight: 600;
@@ -26,19 +30,130 @@ input[type=text]{
         border-radius: 6px;
         border: 2px solid #0016b0;
     }
-    img{
-        position: absolute;
-        left: 500px;
-        
-        border-radius: 20px;
-    }
+    
     li{
-        color:brown;
+        color:#C8C5C5 ;
         list-style-type:none;
     }
-    span{
-        position: absolute;
-        left: 860px;
-        
-        color:cadetblue;
+    
+    .contenedor{
+        width: 100%;
+        max-width: 600px;
+        margin: auto;
+        margin-top: 100px;
+        background: #ffff;
+        padding: 15px;
+        height: 400px;
+        overflow: auto;
+        border-radius: 5px;
     }
+    
+    
+    img{
+        border-radius: 20px;
+    }
+
+    body {
+        background-color: #282c34;
+      }
+      
+      
+        p{
+            color: black;
+        }
+      
+      
+      
+      
+      
+      
+      
+      form button {
+        width: 20%;
+        background-color: rgb(56, 56, 143);
+      }
+      
+      
+      
+      
+     
+      
+      button:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+      
+      
+      .sign-in {
+        color: #282c34;
+        background: white;
+        max-width: 400px;
+        margin: 0 auto;
+      }
+      
+      
+      
+      
+      ul, li {
+        text-align: left;
+        list-style: none;
+        
+      }
+      
+      p {
+        position: relative;
+        right: 90px;
+        top: -70px;
+        max-width: 500px;
+        margin-bottom: 12px;
+        line-height: 24px;
+        padding: 10px 10px;
+        font-size: 17px;
+        border-radius: 25px;
+        position: relative;
+        color: black;
+        text-align: center;
+      }
+      
+      .hola{
+        position: relative;
+        top: -129px;
+        left: -150px;
+        color: blue;
+        
+      }
+      
+      
+      
+      
+      
+      
+      
+      img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin: 2px 5px;
+      }
+    button{
+        text-decoration: none;
+        padding: 10px;
+        font-weight: 600;
+        font-size: 20px;
+        color: #ffffff;
+        background-color: #1883ba;
+        border-radius: 6px;
+        border: 2px solid #0016b0;
+    }
+    span{
+      position: relative;
+      left: 200px;
+        top: -115px;
+      margin-bottom: 12px;
+        line-height: 4px;
+        padding: 10px 90px;
+        border-radius: 25px;
+        position: relative;
+    }
+
+    
