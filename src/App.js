@@ -22,20 +22,23 @@ function App(){
         user ? (
           
           <>
-          <br></br><br></br><br></br>
+          
           <center>
+          
+         
+          <header><h4>Anime-fox</h4><Button onClick={signOut}> Logout Google</Button></header>
+          <br></br><br></br><br></br>
           <div class="contenedor">
           <br></br><br></br><br></br>
-          <Button onClick={signOut}> Logout Google</Button>
           
-          <br></br><br></br><br></br><br></br><br></br>
-          <p>Bienvenidos al Chat!</p>
-          
+          <h4 class="ben">Bienvenidos al Chat!</h4>
+          <hr></hr>
           <Channel user={user}/>
           <br></br><br></br><br></br>
           </div>
           </center>
           <br></br>
+          
           </>
           
           ):<Button onClick={signInWithGoogle} > Sign in with Google</Button>

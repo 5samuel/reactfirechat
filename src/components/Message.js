@@ -1,5 +1,6 @@
 import { formatRelative } from 'date-fns';
 
+
 const formatDate = date => {
     let formattedDate = '';
     if (date) {
@@ -22,8 +23,10 @@ const Message = ({
 }) => {
     if (!text) return null;
 
+    
     return (
-        <div>
+        <div class="todo">
+            
             {photoURL ? (
                 <img
                     src={photoURL}
@@ -33,12 +36,14 @@ const Message = ({
                     height={45}
                 />
             ) : null}
+            
             {displayName ? <p >{displayName}</p> : null}
             {createdAt?.seconds ? (
                 <span>{formatDate(new Date(createdAt.seconds * 1000))}</span>
             ) : null}
-            <p class="hola">{text}</p>
+            <div class="text"><p class="hola">{text}</p></div>
         </div>
+        
     );;
 };
 
