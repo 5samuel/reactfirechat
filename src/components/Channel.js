@@ -86,7 +86,6 @@ const Channel = ({ user = null }) => {
                 onSubmit={handleOnSubmit}>
                 <input
                     ref={inputRef}
-                    id="inp"
                     type="text"
                     value={newMessage}
                     onChange={handleMessageOnChange}
