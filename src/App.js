@@ -22,7 +22,7 @@ function App(){
         user ? (
           
           <>
-          
+          <title>Firechat</title>
           <center>
           
          
