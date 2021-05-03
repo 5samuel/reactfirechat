@@ -24,10 +24,10 @@ const Message = ({
     if (!text) return null;
 
     
-    return (
+    return (// devuelve los mensajes con el nombre de del usuario y imagen del perfil.
         <div class="todo">
-            
-            {photoURL ? (
+            <button class="f">...</button>
+            {photoURL ? (// imagen del perfil
                 <img
                     src={photoURL}
                     alt="Avatar"
@@ -36,7 +36,7 @@ const Message = ({
                     height={45}
                 />
             ) : null}
-            
+           
             {displayName ? <p >{displayName}</p> : null}
             {createdAt?.seconds ? (
                 <span>{formatDate(new Date(createdAt.seconds * 1000))}</span>
@@ -46,5 +46,6 @@ const Message = ({
         
     );;
 };
+
 
 export default Message;

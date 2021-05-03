@@ -5,6 +5,7 @@ import { firebase } from './config/firebase';
 
 
 
+
 function App(){
   const {user, initializing} = useAuthState(firebase.auth());
 
@@ -28,13 +29,15 @@ function App(){
          
           <header><h4>3487-CHAT</h4><Button onClick={signOut}> Logout Google</Button></header>
           <br></br><br></br><br></br>
+          <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
           <div class="contenedor">
           <br></br><br></br><br></br>
           
           <h4 class="ben">Bienvenidos al Chat!</h4>
           <hr></hr>
           <Channel user={user}/>
-          <br></br><br></br><br></br>
+          
+            <br></br><br></br><br></br>
           </div>
           </center>
           <br></br>

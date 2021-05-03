@@ -8,7 +8,7 @@ ____________________
 ## Los mienbros de este equipo son: 
 * Samuel Angeles como Lider👨‍🦰
 * Sterlyn Bueno  como Miembro colaborador👩‍🦰
-* Amy Cruz  como Miembro fork👩‍🦰
+* Kristal Bueno  como Miembro fork👩‍🦰
 * Edward Añon   como Miembro fork 👨‍🦰
 
 
@@ -19,7 +19,7 @@ ______________________________
 ## Puedes visitarnos a nuestros perfiles 
 * [SamuelÁngeles21](https://github.com/5samuel) ⚡
 * [sterlynbueno](https://github.com/sterlynbueno) 😸
-* [Amy006](https://github.com/Amy006) 🍓 
+* [Kristal](https://github.com/Amy006) 🍓 
 * [edwardanon02612](https://github.com/edwardanon02612) 🌵
 
 

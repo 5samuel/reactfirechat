@@ -82,7 +82,7 @@ const Channel = ({ user = null }) => {
                 ))}
             </ul>
 
-            <form
+            <form 
                 onSubmit={handleOnSubmit}>
                 <input
                     ref={inputRef}

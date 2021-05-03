@@ -50,7 +50,7 @@ input[type=text]{
         max-width: 1235px;
         margin: auto;
         margin-top: 100px;
-        background: #ffff;
+        background: white;
         padding: 15px;
         height: 400px;
         overflow: auto;
@@ -115,6 +115,7 @@ input[type=text]{
         max-width: 400px;
         margin: 0 auto;
       }
+      /*contenedor de los mensajes */
       .todo{
         background-color: white;
         height: 100px;
@@ -223,4 +224,12 @@ input[type=text]{
       color: red;
       font-family: fantasyS;
       font-size: 28px;
+      }
+      .f{
+        position: relative;
+        left: 500px;
+        top: 80px;
+        color:red;
+        width: 20px;
+        height: 10px;
       }
