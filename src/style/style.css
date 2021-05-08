@@ -185,10 +185,11 @@ input[type=text]{
       
       .inicio>button{
         font-family: Bahnschrift SemiCondensed;
-        
-        left: 43%;
+        position: absolute;
+        left: 550px;
         top: 290px;
         background-color: #85C1E9 ;
+
 
       }
       
