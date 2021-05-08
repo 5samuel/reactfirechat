@@ -23,6 +23,8 @@ const Channel = ({ user = null }) => {
                 ...doc.data(),
                 id: doc.id,
             }));
+            //mensaje de alerta
+            
             // Actualizo los mensjaes obtenidos desde la bd. 
             setMessages(data);
 
@@ -70,10 +72,11 @@ const Channel = ({ user = null }) => {
             inputRef.current.focus();
         }
     }, [inputRef]);
-
-
+    
+    
     return (
         <>
+       <meta name ="viewport" content="width=device-width, initial-scale=1.0"></meta>
             <ul>
                 {messages.map(message => (
                     <li key={message.id}>
@@ -81,8 +84,9 @@ const Channel = ({ user = null }) => {
                     </li>
                 ))}
             </ul>
-
+            <section>
             <form 
+
                 onSubmit={handleOnSubmit}>
                 <input
                     ref={inputRef}
@@ -90,16 +94,29 @@ const Channel = ({ user = null }) => {
                     value={newMessage}
                     onChange={handleMessageOnChange}
                     placeholder="Escribe tu mensaje aqui..."
+                    
                 />
-
+                
+                
                 <button
                     class=" enviar"
                     type="submit"
                     disabled={!newMessage}
                 >
-                    Enviar
+                    <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              fill="currentColor"
+              class="bi bi-cursor-fill"
+              viewBox="0 0 16 16"
+            >
+                <path d="M14.082 2.182a.5.5 0 0 1 .103.557L8.528 15.467a.5.5 0 0 1-.917-.007L5.57 10.694.803 8.652a.5.5 0 0 1-.006-.916l12.728-5.657a.5.5 0 0 1 .556.103z" />
+            </svg>
         </button>
+            
             </form>
+            </section>
         </>
     );
 };

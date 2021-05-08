@@ -38,3 +38,12 @@ p{
 h1{
   color: aliceblue;
 }
+/*boton de inicio sesion*/
+#inicio{
+  background-color: red;
+}
+h3{
+  cursor: pointer;
+  color: black;
+  font-family: sans-serif;
+}

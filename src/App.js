@@ -17,34 +17,38 @@ function App(){
     }
   }
   return(
-    <div>
+    
+    <div class="container">
       {renderLoading()}
       {
         user ? (
           
           <>
-          <title>Firechat</title>
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous"></link>
+         
           <center>
           
-         
-          <header><h4>3487-CHAT</h4><Button onClick={signOut}> Logout Google</Button></header>
-          <br></br><br></br><br></br>
-          <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+          
+          <header><h3>3487-CHAT</h3><Button onClick={signOut} class="cerrar"> Logout Google</Button></header>
+     
+          
           <div class="contenedor">
-          <br></br><br></br><br></br>
+         
           
           <h4 class="ben">Bienvenidos al Chat!</h4>
           <hr></hr>
+          
           <Channel user={user}/>
+          </div>
           
             <br></br><br></br><br></br>
-          </div>
+          
           </center>
           <br></br>
           
           </>
           
-          ):<Button onClick={signInWithGoogle} > Sign in with Google</Button>
+          ):<div class="inicio"><Button onClick={signInWithGoogle}> Sign in with Google</Button></div>
           
         }
         <br></br>
